@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Album from './pages/Album';
 
 function App() {
   return (
     <div className="App">
-      Personal Website with React and Notion API
+      <Album />
     </div>
   );
 }
